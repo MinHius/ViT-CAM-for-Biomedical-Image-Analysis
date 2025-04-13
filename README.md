@@ -16,5 +16,6 @@
 - Train/val/test = 70/15/15.
 3. Công cụ và cài đặt.
 - Train trên Kaggle với GPU T4 x 2 trong hơn 3 tiếng.
-- Code train được tham khảo từ https://github.com/stevenlimcorn/Covid-Classification
+- Code train được tham khảo từ: https://github.com/stevenlimcorn/Covid-Classification
+- Code ReciproCAM: https://github.com/sybyun/vitcam
   
