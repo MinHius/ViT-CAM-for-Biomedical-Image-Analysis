@@ -1,7 +1,7 @@
 # Dự án Seminar - Vision Transformers for Biomedical Image Analysis and Diagnostics.
 ### Thông tin chung. 
-- Dự án sử dụng mô hình ViT để chẩn đoán 4 bệnh về phổi phổ biến bằng ảnh chụp X-quang, và sử dụng thuật toán ReciproCAM để cải thiện tính xác thực và độ tin cậy của kết luận.
-- Vì kích thước >330mb, model đã được lưu trữ trên Kaggle: https://www.kaggle.com/models/minhius/vit_final_model/
+- Dự án sử dụng mô hình ViT để chẩn đoán 4 bệnh về phổi phổ biến bằng ảnh chụp X-quang, và sử dụng thuật toán ReciproCAM để cải thiện tính diễn giải và độ tin cậy của kết luận.
+- Vì kích thước ~327MB, model đã được lưu trữ trên Kaggle: [https://www.kaggle.com/models/minhius/vit_final_model/](https://www.kaggle.com/models/minhius/vit_lungxray_bestval)
 - Các thành viên nhóm:
   + Trịnh Minh Hiếu
   + Trần Kim Thành
@@ -11,6 +11,13 @@
 - Mô hình ViT base đã được pretrain trên tập dữ liệu Image21k, và được fine-tune trên bộ dữ liệu **COVID-19 Radiography Database** của Tawsifur Rahman, Tiến sĩ Muhammad Chowdhury và Amith Khandakar trên Kaggle.
 - Mô hình tốt nhất (epoch 7 early stopping) đạt accuracy trên tập train là 99%, trên tập validation và tập test là 98%.
 ![image](https://github.com/user-attachments/assets/9537f3c0-a841-40cf-8dfd-f55fe2ddfda5)
+- Kết quả kiểm thử của mô hình:
+![image](https://github.com/user-attachments/assets/57930a4e-fb62-42d0-8c0d-545a7040a8cc)
+  + Accuracy: 94.90%
+  + F1 Score: 0.7292832447036676
+  + Precision: 0.7270522396694347
+  + Recall: 0.9634361515391286
+  + AUC-ROC: 0.9951287983667494
 2. Bộ dữ liệu huấn luyện.
 - Bộ dữ liệu có kích thước khoảng 42.3 nghìn ảnh định dạng .png, với 4 labels: Covid, Lung Opacity, Normal, và Viral Pneumonia. Trong đó, một nửa bộ dữ liệu là ảnh đã được xử lý để tách masks của hai lá phổi.
 - Link bộ dữ liệu: https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/data
