@@ -14,7 +14,15 @@
 - Bộ dữ liệu có kích thước khoảng 42.3 nghìn ảnh định dạng .png, với 4 labels: Covid, Lung Opacity, Normal, và Viral Pneumonia. Trong đó, một nửa bộ dữ liệu là ảnh đã được xử lý để tách masks của hai lá phổi.
 - Link bộ dữ liệu: https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/data
 - Train/val/test = 70/15/15.
-3. Công cụ và cài đặt.
+3. Bộ dữ liệu kiểm thử.
+- Bộ dữ liệu kiểm thử được tổng hợp từ 6 bộ dữ liệu khác nhau trên Kaggle, không bao gồm bộ đã dùng để huấn luyện.
+  + #1: https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset
+  + #2: https://www.kaggle.com/datasets/pcbreviglieri/pneumonia-xray-images
+  + #3: https://www.kaggle.com/datasets/thomasnibb/image-classification-covid19-xray
+  + #4: https://www.kaggle.com/datasets/fsang2692/lung-area-specific-covid19-xray-dataset
+  + #5: https://www.kaggle.com/datasets/nourmahmoud/covid19-digital-xrays-forgery-dataset
+  + #6: https://www.kaggle.com/datasets/yazanqiblawey/sars-mers-xray-images-dataset
+4. Công cụ và cài đặt.
 - Train trên Kaggle với GPU T4 x 2 trong hơn 3 tiếng.
 - Code train được tham khảo từ: https://github.com/stevenlimcorn/Covid-Classification
 - Code ReciproCAM: https://github.com/sybyun/vitcam
