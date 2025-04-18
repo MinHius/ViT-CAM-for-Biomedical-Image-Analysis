@@ -1,7 +1,7 @@
 # Dự án Seminar - Vision Transformers for Biomedical Image Analysis and Diagnostics.
 ### Thông tin chung. 
 - Dự án sử dụng mô hình ViT để chẩn đoán 4 bệnh về phổi phổ biến bằng ảnh chụp X-quang, và sử dụng thuật toán ReciproCAM để cải thiện tính diễn giải và độ tin cậy của kết luận.
-- Vì kích thước ~327MB, model đã được lưu trữ trên Kaggle: [https://www.kaggle.com/models/minhius/vit_final_model/](https://www.kaggle.com/models/minhius/vit_lungxray_bestval)
+- Vì kích thước ~327MB, model đã được lưu trữ trên Kaggle: [https://www.kaggle.com/models/minhius/vit_lungxray_bestval]
 - Các thành viên nhóm:
   + Trịnh Minh Hiếu
   + Trần Kim Thành
@@ -10,10 +10,14 @@
 1. Mô hình.
 - Mô hình ViT base đã được pretrain trên tập dữ liệu Image21k, và được fine-tune trên bộ dữ liệu **COVID-19 Radiography Database** của Tawsifur Rahman, Tiến sĩ Muhammad Chowdhury và Amith Khandakar trên Kaggle.
 - Mô hình tốt nhất (epoch 7 early stopping) đạt accuracy trên tập train là 99%, trên tập validation và tập test là 98%.
-![image](https://github.com/user-attachments/assets/9537f3c0-a841-40cf-8dfd-f55fe2ddfda5)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9537f3c0-a841-40cf-8dfd-f55fe2ddfda5">
+</p>
 
 2. Kiểm thử.
-![image](https://github.com/user-attachments/assets/57930a4e-fb62-42d0-8c0d-545a7040a8cc)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/57930a4e-fb62-42d0-8c0d-545a7040a8cc">
+</p>
 - Accuracy: 94.90%
 - F1 Score: 0.7292832447036676
 - Precision: 0.7270522396694347
