@@ -18,7 +18,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/57930a4e-fb62-42d0-8c0d-545a7040a8cc">
 </p>
-- Accuracy: 94.90%.
+- Accuracy: 94.90%<br>
 - F1 Score: 0.7292832447036676<br>
 - Precision: 0.7270522396694347<br>
 - Recall: 0.9634361515391286<br>
