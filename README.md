@@ -45,7 +45,7 @@
 - Code train được tham khảo từ: https://github.com/stevenlimcorn/Covid-Classification
 - Code ReciproCAM được tham khảo từ: https://github.com/sybyun/vitcam
 
-# Cách cài đặt.
+### Cách cài đặt.
 - Chạy pip install -r requirements.txt
 - Dataset sử dụng phải có cấu trúc như sau:
   - Dataset/
