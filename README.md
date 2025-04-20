@@ -39,8 +39,31 @@
   + #5: https://www.kaggle.com/datasets/nourmahmoud/covid19-digital-xrays-forgery-dataset
   + #6: https://www.kaggle.com/datasets/yazanqiblawey/sars-mers-xray-images-dataset
 
-5. Công cụ và cài đặt.
-- Train trên Kaggle với GPU T4 x 2 trong hơn 3 tiếng.
+5. Công cụ.
+- Train trên Kaggle với GPU T4 x 2 trong hơn 3 tiếng, kiểm thử trên Google Colab với GPU T4.
 - Code train được tham khảo từ: https://github.com/stevenlimcorn/Covid-Classification
-- Code ReciproCAM: https://github.com/sybyun/vitcam
+- Code ReciproCAM được tham khảo từ: https://github.com/sybyun/vitcam
+
+6. Cách cài đặt.
+- pip install -r requirements.txt
+- Dataset phải có cấu trúc như sau:
+      Dataset/
+      ├── COVID/
+      │   ├── image1.png
+      │   ├── image2.png
+      │   └── ...
+      ├── Lung Opacity/
+      │   ├── image1.png
+      │   ├── image2.png
+      │   └── ...
+      ├── Normal/
+      │   ├── image1.png
+      │   ├── image2.png
+      │   └── ...
+      └── Viral Pneumonia/
+          ├── image1.png
+          ├── image2.png
+          └── ...
+- Tải model từ Kaggle rồi chạy.
+
   
