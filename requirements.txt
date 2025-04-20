@@ -1,0 +1,1 @@
+numpy matplotlib Pillow torch torchvision opencv-python transformers safetensors
