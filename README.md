@@ -9,6 +9,7 @@
 ### Về dự án:
 1. Mô hình.
 - Mô hình ViT base đã được pretrain trên tập dữ liệu Image21k, và được fine-tune trên bộ dữ liệu **COVID-19 Radiography Database** của Tawsifur Rahman, Tiến sĩ Muhammad Chowdhury và Amith Khandakar trên Kaggle.
+- Được train trên Kaggle với GPU T4 x 2 trong hơn 3 tiếng, kiểm thử trên Google Colab với GPU T4.
 - Mô hình tốt nhất (epoch 7 early stopping) đạt accuracy trên tập train là 99%, trên tập validation và tập test là 98%.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9537f3c0-a841-40cf-8dfd-f55fe2ddfda5">
@@ -40,10 +41,10 @@
   + #5: https://www.kaggle.com/datasets/nourmahmoud/covid19-digital-xrays-forgery-dataset
   + #6: https://www.kaggle.com/datasets/yazanqiblawey/sars-mers-xray-images-dataset
 
-5. Công cụ.
-- Train trên Kaggle với GPU T4 x 2 trong hơn 3 tiếng, kiểm thử trên Google Colab với GPU T4.
-- Code train được tham khảo từ: https://github.com/stevenlimcorn/Covid-Classification
-- Code ReciproCAM được tham khảo từ: https://github.com/sybyun/vitcam
+5. Các loại file.
+- **train.ipynb**: File mã nguồn fine-tune mô hình.
+- **ViT_reciproCAM**: File mã nguồn kiểm thử có áp dụng reciproCAM trên sample nhỏ từ bộ kiểm thử và bộ huấn luyện.
+- **Unseen_data_test**: File mã nguồn kiểm thử trên bộ kiểm thử đầy đủ.
 
 ### Cách cài đặt.
 - Chạy pip install -r requirements.txt
@@ -67,4 +68,6 @@
       + ...
 - Tải model từ Kaggle rồi chạy.
 
-  
+### Disclaimer.
+- Code train được tham khảo và điều chỉnh từ: https://github.com/stevenlimcorn/Covid-Classification
+- Code ReciproCAM được tham khảo và điều chỉnh từ: https://github.com/sybyun/vitcam
