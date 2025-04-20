@@ -47,23 +47,23 @@
 6. Cách cài đặt.
 - pip install -r requirements.txt
 - Dataset phải có cấu trúc như sau:
-      Dataset/
-      ├── COVID/
-      │   ├── image1.png
-      │   ├── image2.png
-      │   └── ...
-      ├── Lung Opacity/
-      │   ├── image1.png
-      │   ├── image2.png
-      │   └── ...
-      ├── Normal/
-      │   ├── image1.png
-      │   ├── image2.png
-      │   └── ...
-      └── Viral Pneumonia/
-          ├── image1.png
-          ├── image2.png
-          └── ...
+- Dataset/
+  + COVID/
+    + image1.png
+    + image2.png
+    + ...
+  + Lung Opacity/
+    + image1.png
+    + image2.png
+    + ...
+  + Normal/
+    + image1.png
+    + image2.png
+    + ...
+  + Viral Pneumonia/
+    + image1.png
+    + image2.png
+    + ...
 - Tải model từ Kaggle rồi chạy.
 
   
