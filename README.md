@@ -18,15 +18,15 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/57930a4e-fb62-42d0-8c0d-545a7040a8cc">
 </p>
-- Accuracy: 94.90%
-- F1 Score: 0.7292832447036676
-- Precision: 0.7270522396694347
-- Recall: 0.9634361515391286
-- AUC-ROC: 0.9951287983667494
+- Accuracy: 94.90%.
+- F1 Score: 0.7292832447036676.
+- Precision: 0.7270522396694347.
+- Recall: 0.9634361515391286.
+- AUC-ROC: 0.9951287983667494.
 
 3. Bộ dữ liệu huấn luyện.
 - Bộ dữ liệu có kích thước khoảng 42.3 nghìn ảnh định dạng .png, với 4 labels: Covid, Lung Opacity, Normal, và Viral Pneumonia. Trong đó, một nửa bộ dữ liệu là ảnh đã được xử lý để tách masks của hai lá phổi.
-- Link bộ dữ liệu: https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/data
+- Link bộ dữ liệu: https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/data.
 - Train/val/test = 70/15/15.
 
 4. Bộ dữ liệu kiểm thử.
@@ -45,25 +45,25 @@
 - Code ReciproCAM được tham khảo từ: https://github.com/sybyun/vitcam
 
 6. Cách cài đặt.
-- pip install -r requirements.txt
-- Dataset phải có cấu trúc như sau:
-- Dataset/
-  + COVID/
-    + image1.png
-    + image2.png
-    + ...
-  + Lung Opacity/
-    + image1.png
-    + image2.png
-    + ...
-  + Normal/
-    + image1.png
-    + image2.png
-    + ...
-  + Viral Pneumonia/
-    + image1.png
-    + image2.png
-    + ...
+- Chạy pip install -r requirements.txt
+- Dataset sử dụng phải có cấu trúc như sau:
+  - Dataset/
+    + COVID/
+      + image1.png
+      + image2.png
+      + ...
+    + Lung Opacity/
+      + image1.png
+      + image2.png
+      + ...
+    + Normal/
+      + image1.png
+      + image2.png
+      + ...
+    + Viral Pneumonia/
+      + image1.png
+      + image2.png
+      + ...
 - Tải model từ Kaggle rồi chạy.
 
   
