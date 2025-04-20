@@ -43,8 +43,8 @@
 
 5. Các loại file.
 - **train.ipynb**: File mã nguồn fine-tune mô hình.
-- **ViT_reciproCAM**: File mã nguồn kiểm thử có áp dụng reciproCAM trên sample nhỏ từ bộ kiểm thử và bộ huấn luyện.
-- **Unseen_data_test**: File mã nguồn kiểm thử trên bộ kiểm thử đầy đủ.
+- **ViT_reciproCAM.ipynb**: File mã nguồn kiểm thử có áp dụng reciproCAM trên sample nhỏ từ bộ kiểm thử và bộ huấn luyện.
+- **Unseen_data_test.ipynb**: File mã nguồn kiểm thử trên bộ kiểm thử đầy đủ.
 
 ### Cách cài đặt.
 - Chạy pip install -r requirements.txt
