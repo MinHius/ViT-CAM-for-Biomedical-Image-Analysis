@@ -19,10 +19,10 @@
   <img src="https://github.com/user-attachments/assets/57930a4e-fb62-42d0-8c0d-545a7040a8cc">
 </p>
 - Accuracy: 94.90%.
-- F1 Score: 0.7292832447036676.  
-- Precision: 0.7270522396694347.  
-- Recall: 0.9634361515391286.  
-- AUC-ROC: 0.9951287983667494.  
+- F1 Score: 0.7292832447036676<br>
+- Precision: 0.7270522396694347<br>
+- Recall: 0.9634361515391286<br>
+- AUC-ROC: 0.9951287983667494<br>
 
 3. Bộ dữ liệu huấn luyện.
 - Bộ dữ liệu có kích thước khoảng 42.3 nghìn ảnh định dạng .png, với 4 labels: Covid, Lung Opacity, Normal, và Viral Pneumonia. Trong đó, một nửa bộ dữ liệu là ảnh đã được xử lý để tách masks của hai lá phổi.
