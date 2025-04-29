@@ -17,14 +17,14 @@
 
 2. Kiểm thử.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/57930a4e-fb62-42d0-8c0d-545a7040a8cc">
+  <img src="https://github.com/user-attachments/assets/efe51425-329a-4dbb-921a-107799e81427">
 </p>
 
-  + **Accuracy**: 94.90%<br>
-  + **F1 Score**: 0.7292832447036676<br>
-  + **Precision**: 0.7270522396694347<br>
-  + **Recall**: 0.9634361515391286<br>
-  + **AUC-ROC**: 0.9951287983667494<br>
+  + **Accuracy**: 96.06%<br>
+  + **F1 Score**: 0.9601161442894759<br>
+  + **Precision**: 0.9617316249617643<br>
+  + **Recall**: 0.9602083333333333<br>
+  + **AUC-ROC**: 0.9965431134259259<br>
 
 3. Bộ dữ liệu huấn luyện.
 - Bộ dữ liệu có kích thước khoảng 42.3 nghìn ảnh định dạng .png, với 4 labels: Covid, Lung Opacity, Normal, và Viral Pneumonia. Trong đó, một nửa bộ dữ liệu là ảnh đã được xử lý sẵn tách masks của hai lá phổi.
@@ -32,14 +32,15 @@
 - Train/val/test = 70/15/15.
 
 4. Bộ dữ liệu kiểm thử.
-- Bộ dữ liệu kiểm thử được tổng hợp từ 6 bộ dữ liệu khác nhau trên Kaggle, không bao gồm bộ đã dùng để huấn luyện.
-- Bộ bao gồm 4430 ảnh với 1192 COVID, 1703 Normal, 1435 Viral Pneumonia và không có Lung Opacity.
+- Bộ dữ liệu kiểm thử được tổng hợp từ 7 bộ dữ liệu khác nhau trên Kaggle, không bao gồm bộ đã dùng để huấn luyện.
+- Bộ bao gồm 4800 ảnh với 1200 COVID, 1200 Lung Opacity, 1200 Normal và 1200 Viral Pneumonia.
   + #1: https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset
   + #2: https://www.kaggle.com/datasets/pcbreviglieri/pneumonia-xray-images
   + #3: https://www.kaggle.com/datasets/thomasnibb/image-classification-covid19-xray
   + #4: https://www.kaggle.com/datasets/fsang2692/lung-area-specific-covid19-xray-dataset
   + #5: https://www.kaggle.com/datasets/nourmahmoud/covid19-digital-xrays-forgery-dataset
   + #6: https://www.kaggle.com/datasets/yazanqiblawey/sars-mers-xray-images-dataset
+  + #7: https://www.kaggle.com/datasets/kamildinleyici/covid-normal-viral-opacity-v2
 
 5. Các loại file.
 - **train.ipynb**: File mã nguồn fine-tune mô hình.
