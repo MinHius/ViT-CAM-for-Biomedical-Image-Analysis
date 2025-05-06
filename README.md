@@ -2,7 +2,7 @@
 ### Thông tin chung. 
 - Dự án sử dụng mô hình ViT để chẩn đoán 4 bệnh về phổi phổ biến bằng ảnh chụp X-quang, và sử dụng thuật toán ReciproCAM để cải thiện tính diễn giải và độ tin cậy của kết luận.
 - Vì kích thước ~327MB, model đã được lưu trữ trên Kaggle: [https://www.kaggle.com/models/minhius/vit_lungxray_bestval]
-- Các thành viên nhóm:
+- Các thành viên **nhóm 18**:
   + Trịnh Minh Hiếu
   + Trần Kim Thành
   + Trần Hồng Đăng
