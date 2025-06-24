@@ -43,10 +43,11 @@
   + #7: https://www.kaggle.com/datasets/kamildinleyici/covid-normal-viral-opacity-v2
 
 5. Các loại file.
-- **train.ipynb**: File mã nguồn fine-tune mô hình.
-- **ViT_reciproCAM.ipynb**: File mã nguồn kiểm thử có áp dụng reciproCAM trên sample nhỏ từ bộ kiểm thử và bộ huấn luyện.
-- **Test_final.ipynb**: File mã nguồn kiểm thử trên bộ kiểm thử đầy đủ.
-
+- **Train.ipynb**: File mã nguồn fine-tune mô hình.
+- **ViT_ReciproCAM.ipynb**: File mã nguồn kiểm thử có áp dụng ReciproCAM trên sample nhỏ từ bộ kiểm thử và bộ huấn luyện.
+- **Test_mixed.ipynb**: File mã nguồn kiểm thử trên bộ kiểm thử với bộ dữ liệu kết hợp.
+- **Test_individual _datasets.ipynb**: File mã nguồn kiểm thử trên 3 bộ kiểm thử lựa chọn ngẫu nhiên trên Kaggle.
+- **ViT_GradCAM_experiment.ipynb**: File mã nguồn thử nghiệm phương pháp GradCAM
 ### Cách cài đặt.
 - Chạy pip install -r requirements.txt
 - Dataset sử dụng phải có cấu trúc như sau:
@@ -72,3 +73,4 @@
 ### Disclaimer.
 - Code train được tham khảo và điều chỉnh từ: https://github.com/stevenlimcorn/Covid-Classification
 - Code ReciproCAM được tham khảo và điều chỉnh từ: https://github.com/sybyun/vitcam
+- Code GradCAM được tham khảo và điều chỉnh từ: https://github.com/Mikael17125/ViT-GradCAM
